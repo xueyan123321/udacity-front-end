@@ -1,0 +1,135 @@
+/*
+  This style is to imitate Google Maps.
+  The Images from https://www.google.com/maps
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+button,
+input,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.map-canvas {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.filter {
+  width: 300px;
+  height: 48px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.list-button {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/nav.png);
+  background-size: 48px 24px;
+  background-position: 0 0;
+  margin: 12px;
+  cursor: pointer;
+}
+
+input {
+  width: 188px;
+  height: 24px;
+  margin: 12px 0;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.filter-button {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/search.png); 
+  background-size: 72px 24px;
+  background-position: 0 0;
+  margin: 0 12px;
+}
+
+ul {
+  width: 300px;
+  max-height: 90%;
+  position: absolute;
+  top: 56px;
+  left: 8px;
+  background: #fff;
+  background-size: 42px 42px;
+  background-repeat: repeat-y;
+  box-sizing: border-box;
+  border-top: 1px solid #e6e6e6;
+  border-radius: 2px;
+  padding: 6px 0;
+  overflow: auto;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+li {
+  height: 36px;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 6px 0 6px 48px;
+  list-style: url(../img/list.png);
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.toggle-list {
+  transform: translate(-310px, 0);
+  transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    transform: translate(-310px, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .toggle-list {
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+  }
+}
