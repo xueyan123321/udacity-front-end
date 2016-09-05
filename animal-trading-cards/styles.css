@@ -1,0 +1,38 @@
+.italic {
+	font-style: italic;
+}
+
+.normal {
+	font-style: normal;
+}
+
+.bold {
+	font-weight: bold;
+}
+.list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.border_all {
+	border: 2px;
+	border-top: solid #c8c8c8;
+	width: 300px;
+	box-shadow: 3px 6px 5px #c8c8c8,
+	            -3px 6px 5px #c8c8c8;
+	border-spacing: 10px; 
+}
+
+.border_img {
+	width: 300px;
+	padding-bottom: 15px;
+}
+
+.border_text {
+	border: 2px solid #c8c8c8;
+	width: 267px;
+}
+
+.padding {
+	padding: 15px;
+}
