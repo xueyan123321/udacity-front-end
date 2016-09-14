@@ -1,4 +1,4 @@
-# Neighborhood Map
+# Neighborhood Map Project
 
 ## Run
 - Open index.html in your browser

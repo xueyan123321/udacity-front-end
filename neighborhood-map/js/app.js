@@ -9,6 +9,12 @@ var initialMarkers = [
 	},
 	{
 
+		title: 'All City',
+		lat: 22.501666,
+		lng: 113.940061
+	},
+	{
+
 		title: 'KK Mall',
 		lat: 22.543371,
 		lng: 114.106509
@@ -17,12 +23,6 @@ var initialMarkers = [
 		title: 'The Mixc',
 		lat: 22.539709,
 		lng: 114.111472
-	},
-	{
-
-		title: 'All City',
-		lat: 22.501666,
-		lng: 113.940061
 	},
 	{
 
