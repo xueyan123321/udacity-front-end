@@ -20,11 +20,11 @@
 ## 消除卡顿
 
 ### 要求
-- 使 `views/pizza.html` 在滚动动时达到 60fps
+- 使 `views/pizza.html` 滚动时达到 60fps
 - 在 `views/pizza.html` 通过滑条调整披萨大小时小于 5ms
 
 ### 优化
-- 减少样式的计算范围及复杂度(`views/js/main.js`)
+- 减少样式的计算范围、复杂度(`views/js/main.js`)
 
 ### 测试
 使用 `Google Developer` 工具测试以下页面
