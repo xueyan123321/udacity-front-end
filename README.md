@@ -1,5 +1,5 @@
 # [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
-![](http://icodytan.com/img/front-end-web-developer-nanodegree.png)
+![](front-end-web-developer-nanodegree.png)
 
 ## Projects
 - [Mockup to Article](http://icodytan.com/mockup-to-article/)
