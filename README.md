@@ -4,7 +4,7 @@
 ## Projects
 - [Mockup to Article](http://icodytan.com/mockup-to-article/)
 - [Animal Trading Cards](http://icodytan.com/animal-trading-cards/)
-- [Build a Portfolio Site](http://icodytan.com/build-a-portfolio/)
+- [Build a Portfolio Site](http://icodytan.com/build-a-portfolio-site/)
 - [Online Resume](http://icodytan.com/online-resume/)
 - [Classic Arcade Game Clone](http://icodytan.com/classic-arcade-game-clone/)
 - [Website Optimization](http://icodytan.com/website-optimization/)
